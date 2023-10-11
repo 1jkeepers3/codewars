@@ -19,3 +19,12 @@ function countSheeps(arrayOfSheep) {
     // TODO May the force be with you
         return arrayOfSheep.filter(Boolean).length;
   }
+
+  //My other solution
+
+function countSheeps(sheep) {
+  // TODO
+  let count = 0
+  sheep.forEach((element) => element===true?count += 1:count += 0);
+  return count
+}
